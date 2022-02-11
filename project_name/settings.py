@@ -85,7 +85,7 @@ WSGI_APPLICATION = 'project_name.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'awesome27', # 데이터베이스를 생성 후 이름을 넣어주세요.
+        'NAME': 'awesome27',  # 데이터베이스를 생성 후 이름을 넣어주세요.
         'USER': os.environ['USER'],
         'PASSWORD': os.environ['PASSWORD'],
         'HOST': os.environ['HOST'],
