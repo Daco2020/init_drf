@@ -17,9 +17,10 @@
 7. 서버가 정상작동한다면 'project_name'의 이름을 본인의 프로젝트 명으로 바꿔주세요!
    (VSC기준, shift + command + f 를 누르면 모든 파일의 'project_name'을 찾아서 바꾸실 수 있습니다!)
 
-
 - 설치된 라이브러리는 requirements를 참고해주세요.
 - 추가하면 좋은 공통 라이브러리는 추가 후 PR요청해주세요.
+
+### 권장 사항
 - swagger를 사용한다면 drf-yasg을 추가로 설치해주세요.
 - permission의 경우 settings 내부에 설정하는 방법과 permissions.py를 만드는 방법이 있습니다. 원하는 방법으로 추가하여 진행해주세요.
 
