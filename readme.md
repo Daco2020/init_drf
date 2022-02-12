@@ -3,12 +3,11 @@
 - cors 세팅
 - pymysql 세팅
 - logging 세팅
-- *설치된 라이브러리는 requirements를 참고해주세요.
-- *추가하면 좋은 공통 라이브러리는 추가 후 PR요청해주세요.
+- 기본 app으로 'users' 세팅
+- app의 경우 apps 디렉토리 하위 위치(파일을 app별로 관리하기 위함)
 
 
 ### 다음 순서를 따라해주세요.
-
 1. 레포를 깃 클론 받아주세요.
 2. 가상환경을 만들어주세요. (파이썬은 3.8 버전입니다)
 3. requirements.txt 를 이용하여 라이브러리를 설치해주세요.
@@ -18,5 +17,15 @@
 7. 서버가 정상작동한다면 'project_name'의 이름을 본인의 프로젝트 명으로 바꿔주세요!
    (VSC기준, shift + command + f 를 누르면 모든 파일의 'project_name'을 찾아서 바꾸실 수 있습니다!)
 
-### 수정 보완이 필요한 사항은 언제든지 깃헙 코멘트나 슬랙 디엠 남겨주세요!
-### 여러분 언제나 응원합니다! 화이팅!!!
+
+- 설치된 라이브러리는 requirements를 참고해주세요.
+- 추가하면 좋은 공통 라이브러리는 추가 후 PR요청해주세요.
+- swagger를 사용한다면 drf-yasg을 추가로 설치해주세요.
+- permission의 경우 settings 내부에 설정하는 방법과 permissions.py를 만드는 방법이 있습니다. 원하는 방법으로 추가하여 진행해주세요.
+
+
+### 업데이트 이력
+2022년 2월 12일
+- settings.py -> INSTALLED_APPS에 'rest_framework', 추가.
+- 'users' app에 serializers.py 파일 추가.
+- util 폴더 apps 폴더 하위로 이동.
