@@ -30,3 +30,5 @@
 - settings.py -> INSTALLED_APPS에 'rest_framework', 추가.
 - 'users' app에 serializers.py 파일 추가.
 - util 폴더 apps 폴더 하위로 이동.
+2022년 2월 20일
+- settings.py -> TIME_ZONE = 'Asia/Seoul' 로 수정
