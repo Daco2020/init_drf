@@ -5,6 +5,7 @@
 - logging 세팅
 - 기본 app으로 'users' 세팅
 - app의 경우 apps 디렉토리 하위 위치(파일을 app별로 관리하기 위함)
+- swagger 세팅(2월 27일 추가)
 
 
 ### 다음 순서를 따라해주세요.
@@ -21,7 +22,6 @@
 - 추가하면 좋은 공통 라이브러리는 추가 후 PR요청해주세요.
 
 ### 권장 사항
-- swagger를 사용한다면 drf-yasg을 추가로 설치해주세요.
 - permission의 경우 settings 내부에 설정하는 방법과 permissions.py를 만드는 방법이 있습니다. 원하는 방법으로 추가하여 진행해주세요.
 
 
@@ -32,3 +32,6 @@
 - util 폴더 apps 폴더 하위로 이동.
 2022년 2월 20일
 - settings.py -> TIME_ZONE = 'Asia/Seoul' 로 수정
+2022년 2월 27일
+- settings.py -> APPEND_SLASH = 'True' 로 수정
+- swagger 세팅 -> settings.py, urls.py 수정
