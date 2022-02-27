@@ -43,8 +43,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'corsheaders',
     'rest_framework',
+    'corsheaders',
+    "drf_yasg",
     'project_name.apps.users',
 ]
 
@@ -163,7 +164,7 @@ CORS_ALLOW_HEADERS = (
     'x-requested-with',
 )
 
-APPEND_SLASH = False
+APPEND_SLASH = True
 
 LOGGING = {
     'disable_existing_loggers': False,
