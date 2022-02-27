@@ -14,7 +14,7 @@
 3. requirements.txt 를 이용하여 라이브러리를 설치해주세요.
 4. project_name/settings.py 에서 DATABASE 에 데이터베이스 이름을 넣어주세요. (데이터 베이스가 없다면 생성 후 이름을 기재해주세요)
 5. python manage.py runserver 으로 서버를 열어주세요.
-6. http://127.0.0.1:8000/users/ping  해당 url에서 반환메시지(pong)가 정상적으로 나오는지 확인해주세요.
+6. http://127.0.0.1:8000/ 해당 url에서 반환메시지(pong)가 정상적으로 나오는지 확인해주세요.
 7. 서버가 정상작동한다면 'project_name'의 이름을 본인의 프로젝트 명으로 바꿔주세요!
    (VSC기준, shift + command + f 를 누르면 모든 파일의 'project_name'을 찾아서 바꾸실 수 있습니다!)
 
@@ -26,12 +26,18 @@
 
 
 ### 업데이트 이력
-2022년 2월 12일
+
+<br> 2022년 2월 12일
+
 - settings.py -> INSTALLED_APPS에 'rest_framework', 추가.
 - 'users' app에 serializers.py 파일 추가.
 - util 폴더 apps 폴더 하위로 이동.
-2022년 2월 20일
+
+<br> 2022년 2월 20일
+
 - settings.py -> TIME_ZONE = 'Asia/Seoul' 로 수정
-2022년 2월 27일
+
+<br> 2022년 2월 27일
+
 - settings.py -> APPEND_SLASH = 'True' 로 수정
 - swagger 세팅 -> settings.py, urls.py 수정
