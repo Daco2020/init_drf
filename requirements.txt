@@ -6,7 +6,7 @@ drf-yasg==1.20.0
 
 # authorization
 bcrypt==3.2.0
-PyJWT==2.3.0
+PyJWT==2.4.0
 
 # database
 PyMySQL==1.0.2
